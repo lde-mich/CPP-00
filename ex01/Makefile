@@ -6,7 +6,7 @@
 #    By: lde-mich <lde-mich@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/29 11:21:57 by lde-mich          #+#    #+#              #
-#    Updated: 2023/10/02 09:58:45 by lde-mich         ###   ########.fr        #
+#    Updated: 2023/10/05 16:11:36 by lde-mich         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,9 @@ RM				= rm -f
 CFLAGS			= -Wall -Wextra -Werror -std=c++98
 
 NAME			= phonebook
+
+%.o:%.cpp
+				$(CC) $(CFLAGS) -c $< -o $(<:.cpp=.o)
 
 $(NAME):		$(OBJS)
 				$(CC) $(CFLAGS) $(OBJS) -o $(NAME)

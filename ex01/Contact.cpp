@@ -6,7 +6,7 @@
 /*   By: lde-mich <lde-mich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/29 16:12:00 by lde-mich          #+#    #+#             */
-/*   Updated: 2023/10/04 15:24:46 by lde-mich         ###   ########.fr       */
+/*   Updated: 2023/10/05 16:18:36 by lde-mich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,28 @@ std::string Contact::getDarkestSecret() const
 {
     return this->darkestSecret;
 }
-int Contact::getPhoneNumber() const
+std::string Contact::getPhoneNumber() const
 {
     return this->phoneNumber;
+}
+
+void   	Contact::setFirstName(std::string firstName)
+{
+    this->firstName = firstName;
+}
+void   	Contact::setLastName(std::string lastName)
+{
+    this->lastName = lastName;
+}
+void   	Contact::setNickName(std::string nickName)
+{
+    this->nickName = nickName;
+}
+void   	Contact::setDarkestSecret(std::string darkestSecret)
+{
+    this->darkestSecret = darkestSecret;
+}
+void	Contact::setPhoneNumber(std::string phoneNumber)
+{
+    this->phoneNumber = phoneNumber;
 }
