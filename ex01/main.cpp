@@ -6,7 +6,7 @@
 /*   By: lde-mich <lde-mich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 09:57:33 by lde-mich          #+#    #+#             */
-/*   Updated: 2023/10/06 10:19:01 by lde-mich         ###   ########.fr       */
+/*   Updated: 2023/10/06 11:05:24 by lde-mich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int main()
     PhoneBook phonebook;
 
     std::cout << "Insert command" << std::endl;
-    std::cin>>cmd;
+    std::getline (std::cin, cmd);
 
     if (cmd == "add")
         phonebook.add();
