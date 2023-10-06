@@ -6,7 +6,7 @@
 /*   By: lde-mich <lde-mich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 09:57:33 by lde-mich          #+#    #+#             */
-/*   Updated: 2023/10/06 11:51:57 by lde-mich         ###   ########.fr       */
+/*   Updated: 2023/10/06 15:42:22 by lde-mich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ int main()
     std::string cmd;
     PhoneBook phonebook;
 
+	std::cout << "--PHONEBOOK--" << std::endl;
+	std::cout << "" << std::endl;
     while (1)
     {
         std::cout << "Insert command: " << std::endl;
