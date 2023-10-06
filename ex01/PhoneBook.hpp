@@ -6,7 +6,7 @@
 /*   By: lde-mich <lde-mich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/29 15:57:00 by lde-mich          #+#    #+#             */
-/*   Updated: 2023/10/06 10:58:44 by lde-mich         ###   ########.fr       */
+/*   Updated: 2023/10/06 11:39:41 by lde-mich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ class   PhoneBook
         Contact rubrica[8];
     public:
         void add();
-        // void search();
+        void search();
         PhoneBook();
         ~PhoneBook();
 };
