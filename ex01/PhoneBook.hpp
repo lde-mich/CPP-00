@@ -6,7 +6,7 @@
 /*   By: lde-mich <lde-mich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/29 15:57:00 by lde-mich          #+#    #+#             */
-/*   Updated: 2023/10/09 14:42:36 by lde-mich         ###   ########.fr       */
+/*   Updated: 2023/10/09 15:38:04 by lde-mich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 #include <stdlib.h>
 #include "Contact.hpp"
 
-#define MACRO 3
+#define MACRO 8
 
 class   PhoneBook
 {
