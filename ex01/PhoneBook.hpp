@@ -6,15 +6,16 @@
 /*   By: lde-mich <lde-mich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/29 15:57:00 by lde-mich          #+#    #+#             */
-/*   Updated: 2023/10/09 11:49:26 by lde-mich         ###   ########.fr       */
+/*   Updated: 2023/10/09 14:42:36 by lde-mich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 #include <iostream>
-#include <string.h>
-#include "Contact.hpp"
 #include <iomanip>
+#include <string.h>
+#include <stdlib.h>
+#include "Contact.hpp"
 
 #define MACRO 3
 
@@ -24,7 +25,8 @@ class   PhoneBook
         Contact rubrica[MACRO];
         int     index;
         int     v_index;
-        static std::string editstr(std::string s);
+        static std::string editStr(std::string s);
+        void searchIndex();
     public:
         void add();
         void search();
