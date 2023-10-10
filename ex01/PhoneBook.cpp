@@ -6,7 +6,7 @@
 /*   By: lde-mich <lde-mich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/29 15:57:52 by lde-mich          #+#    #+#             */
-/*   Updated: 2023/10/09 15:29:13 by lde-mich         ###   ########.fr       */
+/*   Updated: 2023/10/10 14:14:49 by lde-mich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,6 +104,7 @@ void    PhoneBook::search()
 {
 	int	i;
 	
+	std::cout << "|     Index| FirstName|  LastName|  NickName|" << std::endl;
 	i = 0;
 	while (i < this->index)
 	{
